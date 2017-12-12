@@ -23,7 +23,7 @@ The easiest way is to keep `wdio-nwjs-chromedriver-service` as a devDependency i
 ```json
 {
   "devDependencies": {
-    "wdio-nwjs-chromedriver-service": ""
+      "wdio-nwjs-chromedriver-service": "git+https://github.com/theDevelopper/wdio-nwjs-chromedriver-service.git",
   }
 }
 ```
@@ -31,7 +31,7 @@ The easiest way is to keep `wdio-nwjs-chromedriver-service` as a devDependency i
 You can simple do it by:
 
 ```bash
-npm install wdio-nwjs-chromedriver-service --save-dev
+npm install https://github.com/theDevelopper/wdio-nwjs-chromedriver-service --save-dev
 ```
 
 Instructions on how to install `WebdriverIO` can be found [here.](http://webdriver.io/guide/getstarted/install.html)
