@@ -1,0 +1,29 @@
+{
+  "name": "wdio-nwjs-chromedriver-service",
+  "version": "0.1.0",
+  "description": "WebdriverIO service to start & stop ChromeDriver for nwjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theDevelopper/wdio-nwjs-chromedriver-service.git"
+  },
+  "author": "Bastian Brodbeck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theDevelopper/wdio-nwjs-chromedriver-service/issues"
+  },
+  "homepage": "https://github.com/theDevelopper/wdio-nwjs-chromedriver-service#readme",
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "wdio-service",
+    "wdio-plugin",
+    "nwjs"
+  ],
+  "dependencies": {
+    "fs-extra": "5.0.0"
+  }
+}
